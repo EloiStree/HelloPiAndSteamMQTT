@@ -65,6 +65,8 @@ import paho.mqtt.client as mqtt
 import time
 
 # MQTT settings
+# SHOULD BE steamdeck.local or raspberrypi.local
+# I just changed it in the steam setting as it run on a mini computer.
 BROKER = "steamini.local"
 PORT = 1883
 TOPIC = "hello/mqtt"
